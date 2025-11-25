@@ -1,0 +1,28 @@
+1. conic-gradient()-> ata diye amra aksathe onek gulo color use korte pari
+
+.about_us_section{
+    background: conic-gradient(from 90deg,red,yellow,#AF863F,aqua,blue,magenta,red) !important;
+}
+
+////////////////////////////////////////////////////////////////////////////////////
+2.repeating-radial-gradient()-> amar ata diye akadhik circle ar under a akadhik color use korte pari
+.about_us_section{
+    background: repeating-radial-gradient(circle,#ff0000,#0000ff,yellow 20%) !important;
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+3.repeating-linear-gradient()-> amara akdhik color left to right or rght to left use korte  parbo 
+
+.about_us_section{
+    background: repeating-linear-gradient(to right, #ff0000, #0000ff 20%) !important;
+}
+///////////////////////////////////////////////////////////////////////////////////////////
+4. radial-gradient() -> amra akdhik color aksathe use korte pari circle kore (akhane circole ar area koto boro hobe percet diteo pari nao pari)
+.about_us_section{
+    background: radial-gradient(circle, red, #0000ff,yellow 22%) !important;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////
+5.linear-gradient() amara akadhik color use korte pari (left to/ right to ) 
+.about_us_section{
+    background: linear-gradient(to right, red, #0000ff,yellow) !important;
+}
