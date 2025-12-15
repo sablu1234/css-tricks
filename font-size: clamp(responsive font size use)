@@ -1,0 +1,5 @@
+#ata use korte clamp ar vetore 1st size (minimum), 2nd size(flexible ata respnsive na(মাঝের value vw / % / calc() হতে হবে)), 3rd ata(Maximum size)
+
+<span style="font-size: clamp(16px, 30vw, 20px);">
+  hello
+</span>
