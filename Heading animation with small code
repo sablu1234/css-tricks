@@ -1,0 +1,27 @@
+#amra jodi heding text a akta animation dite chai tobe ai soto code diye korte parbo
+#ata html code tmi wordpress a akta heading widget nibe ai class "shimmer" use korbe. Ar nisher css ta custom css bosabe taholei hobe(source codepen=> https://codepen.io/Sablu-Hasan-the-lessful/pen/zxBGmpQ)
+ <h1 class="shimmer">SHIMMER</h1>
+
+shimmer,
+.shimmer * {
+  background: linear-gradient(
+    90deg,
+    #555 25%,
+    #0ff 50%,
+    #555 75%
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+  from {
+    background-position: 0% center;
+  }
+  to {
+    background-position: 200% center;
+  }
+}
