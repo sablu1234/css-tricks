@@ -1,0 +1,54 @@
+#amra jodi wordpress a button a hover pete source ar animaiton ta chai tobe ai small code ta use korte pari (source => https://codepen.io/Sablu-Hasan-the-lessful/pen/dPXYbPx)
+#akta button nibo jar class "btn". ar css code ta custom css a bosabo button a click kore
+
+<div class="data-container">
+<span class="btn" style="padding:10px 30px; background:red;">Hover Me </span>
+</div>
+
+#css code button click kore custom css paste koro
+.btn {
+  cursor: pointer;
+  position: relative;
+  border: none;
+  transition: all 1s;
+  border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+}
+
+/* Top-left corner */
+.btn::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 10px;
+  height: 10px;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  transition: all 1s;
+}
+
+/* Bottom-right corner */
+.btn::before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  width: 10px;
+  height: 10px;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  transition: all 1s;
+}
+
+/* Hover effect */
+.btn:hover {
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn:hover::after,
+.btn:hover::before {
+  width: 100%;
+  height: 100%;
+}
