@@ -1,0 +1,24 @@
+#amra jodi "Cross doucument transtion " on korte chai tobe niser code use korte hobe(source code => https://www.youtube.com/watch?v=yyBlyzGX7B8&list=PLPQNgl6Zh2wLJFPLLQ7EZoHDwNW1X4pnq)
+@view-transition{
+    navigation: auto;
+}
+
+#amra joid same id duita alada pager title a dei tahole one page theke arek page a gele ai transition hove(akhane title dui id dui page ar title a deya ase(obossoi transiton on thakte hobe))
+@view-transition{
+    navigation: auto;
+}
+
+#title{
+    view-transition-name: title;
+}
+
+#ami jodi chai animation duration dite 
+@view-transition{
+    navigation: auto;
+}
+#title{
+    view-transition-name: title;
+}
+::view-transition-group(*) {
+    animation-duration: 0.5s;
+}
