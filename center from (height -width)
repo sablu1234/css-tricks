@@ -1,0 +1,4 @@
+#amra jodi kono div ar vatorer kono kisu center ante chai heign and width theke 
+<div style="display:flex; justify-content:center; align-items:center; height:100vh;">
+  <p id="text"></p>
+</div>
