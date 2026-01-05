@@ -1,0 +1,31 @@
+#amara jodi chai kono html tag ar under a boro content ase but fromtent a just koye line dekate chai to be ai code use kora jabe (source => https://codepen.io/Yukishi/pen/zEBoMr)
+#html code
+<div class="content">
+  <h3>This Is Title</h3>
+  <p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  </p>
+</div>
+
+#css code
+.content {
+  background: #C87878;
+  border: 1px solid #fff;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.18);
+  margin:0 auto;
+  width: 20%;
+  height: 100%;
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
