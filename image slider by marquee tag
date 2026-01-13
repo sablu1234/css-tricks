@@ -1,4 +1,4 @@
-#amra jodi easily infint scrolling banate chai
+#amra jodi image slider easily banate chai marquee use kore korte pari
 
 <marquee id="slider" direction="left" scrollamount="10">
   <div class="images" id="imgBox">
