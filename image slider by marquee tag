@@ -1,4 +1,4 @@
-#amra jodi image slider easily banate chai marquee use kore korte pari
+#amra jodi image slider easily banate chai marquee use kore korte pari (source codepen => https://codepen.io/Sablu-Hasan-the-lessful/pen/myEOWjw)
 
 <marquee id="slider" direction="left" scrollamount="10">
   <div class="images" id="imgBox">
