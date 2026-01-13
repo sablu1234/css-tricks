@@ -1,0 +1,19 @@
+#amra jodi easily infint scrolling banate chai
+
+<marquee id="slider" direction="left" scrollamount="10">
+  <div class="images" id="imgBox">
+    <img src="https://adeontech.svalphawp.com/wp-content/uploads/2025/12/team-B-Ij1wDn.jpg" alt="" class="img">
+    <img src="https://adeontech.svalphawp.com/wp-content/uploads/2025/12/team-B-Ij1wDn.jpg" alt="" class="img">
+    <img src="https://adeontech.svalphawp.com/wp-content/uploads/2025/12/team-B-Ij1wDn.jpg" alt="" class="img">
+    
+  </div>
+  
+</marquee>
+
+
+<style>
+ #imgBox img{
+  width: 200px;
+  padding: 10px;
+}
+</style>
