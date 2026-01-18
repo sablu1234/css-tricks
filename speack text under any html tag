@@ -1,0 +1,11 @@
+#amara jodi jekono html tag ar vetore thaka text ke speack korate chai
+<h1 id="hasan">Hello, I am Hasan</h1>
+<button onclick="speakH1()">Speak</button>
+
+#js code
+    function speakH1() {
+        const h1Text = document.getElementById("hasan").innerText;
+        const speech = new SpeechSynthesisUtterance(h1Text);
+        speechSynthesis.speak(speech);
+    }
+
