@@ -1,0 +1,3 @@
+#ai code ta use kore amra input a kisu diye submit button a click korle voice dibe
+<input type="text" id="text" placeholder="text someting.."/>
+<button onclick="speechSynthesis.speak(new SpeechSynthesisUtterance(text.value))">speack<button/>
