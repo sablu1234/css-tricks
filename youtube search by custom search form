@@ -1,0 +1,6 @@
+#amra jodi amader custom form diye youtube a search dite chai ata direct tmr code a kaj korbe codepen a thik moto kaj korbe na(source code pen=> https://codepen.io/Sablu-Hasan-the-lessful/pen/ByzdmKm)
+<form action="https://www.youtube.com/results" method="get">
+  <input type="text" name="search_query" placeholder="Search YouTube video">
+  <button type="submit">Search</button>
+</form>
+
