@@ -1,0 +1,10 @@
+#amra jodi variable use kore css korte chai jeno variable akbar change korle variable jekhane use kora ase sob jai gai css change hobe
+<h1 class="heading" id="name"> Hi i AM HASAN </h1>
+
+:root {
+  --black: red;
+}
+
+.heading {
+  color: var(--black);
+}
