@@ -1,4 +1,6 @@
 #amra jodi text ar background a image diye ata animaitondekate chai 
+<span>Animated text fill</span>
+
 body{
   background: black;
 }
