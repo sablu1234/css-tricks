@@ -1,0 +1,28 @@
+#amra jodi text ar background a image diye ata animaitondekate chai 
+body{
+  background: black;
+}
+
+span{
+  text-transform: uppercase;
+
+  background: url("https://aaron3123.wpvence.com/wp-content/uploads/al_opt_content/IMAGE/aaron3123.wpvence.com/wp-content/uploads/2026/01/30d-OBV-min-1-1024x683.jpg.bv.webp?bv_host=aaron3123.wpvence.com");
+  background-size: 200%;      /* important for animation */
+  background-position: 0% 50%;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  0%{
+    background-position: 0% 50%;
+  }
+  100%{
+    background-position: 100% 50%;
+  }
+}
