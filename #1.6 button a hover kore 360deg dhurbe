@@ -1,0 +1,14 @@
+#amra button a hover korle button 360 degree ghurbe
+<button class="btn">button</button>
+.btn {
+  padding: 10px 30px;
+  background: black;
+  color: white;
+  border: 1px solid #3b82f6;
+  border-radius: 8px;
+  transition: transform 0.6s;
+}
+
+.btn:hover{
+  transform:rotateX(360deg);
+}
