@@ -1,0 +1,14 @@
+#amra jodi chia hover korle box shadow dekabe
+<button class="btn">button</button>
+
+.btn {
+  padding: 10px 30px;
+  background: #3b82f6;
+  color: white;
+  border: 1px solid #3b82f6;
+  border-radius: 8px;
+}
+
+.btn:hover{
+  box-shadow: 0 0 0 6px rgb(16,185,129,0.3)
+}
