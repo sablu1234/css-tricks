@@ -1,0 +1,40 @@
+#amra jodi chai hover korle background a akta light left to right jabe tabe at use korte pari(amra jodi shine color change korte chia (rgba(255,255,255,0.6),) at change korbo)
+(abar jodi chao shining ta right to left jabe tobe(left replace with right and keyframs ao je left ase ota right kore doe ))
+<button class="btn">button</button>
+
+.btn {
+  position: relative;
+  padding: 10px 30px;
+  background: #3b82f6;
+  color: white;
+  border: 1px solid #3b82f6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* shine layer */
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.6),
+    transparent
+  );
+}
+
+/* hover animation */
+.btn:hover::after {
+  animation: shine 0.8s;
+}
+
+@keyframes shine {
+  100% {
+    left: 150%;
+  }
+}
