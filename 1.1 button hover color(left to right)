@@ -1,0 +1,29 @@
+#amra jodi chai button a hover korle left theke right a color jabe (amra jodi right to left korte chai (just "left: 0;" ata ke "right:0" kore deo ))
+<button class="btn">button</button>
+
+.btn {
+  position: relative;
+  padding: 10px 30px;
+  background: #3b82f6;
+  color: white;
+  border: 1px solid #3b82f6;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: #22c55e;
+  transition: 0.4s;
+  z-index: -1;
+}
+
+.btn:hover::before {
+  width: 100%;
+}
