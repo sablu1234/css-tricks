@@ -1,0 +1,46 @@
+#amra jodi chai button a hover korle upore and nise theke border 2px kre left to right and right to left jabe
+<button class="btn">button</button>
+
+.btn {
+  position: relative;
+  padding: 10px 30px;
+  background: #3b82f6;
+  color: white;
+  border: 1px solid #3b82f6;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* top line */
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #f59e0b;
+  transition: 0.5s;
+}
+
+/* bottom line */
+.btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0%;
+  height: 2px;
+  background: #f59e0b;
+  transition: 0.5s;
+}
+
+/* hover effect */
+.btn:hover::before {
+  width: 100%;
+}
+
+.btn:hover::after {
+  width: 100%;
+}
