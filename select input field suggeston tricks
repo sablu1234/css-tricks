@@ -1,0 +1,10 @@
+#amra jodi select field a suggestion use korte chai 
+
+<input type="text" id="area_input" name="area" list="area_suggestions" placeholder="Search and select area">
+<datalist id="area_suggestions">
+    <option value="dubai - nad al sheba">
+    <option value="dubai - dubai marina">
+    <option value="dubai - downtown dubai">
+    <option value="dubai - business bay">
+    <option value="dubai - palm jumeirah">
+</datalist>
